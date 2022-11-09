@@ -1,0 +1,18 @@
+Package: MHD
+Type: Package
+Title: Metric halfspace depths
+Version: 0.0.0.9000
+Date: 2021-12-2
+Authors@R: person("Xiongtao", "Dai", email = "xdai@iastate.edu", role = c("aut", "cre"))
+Description: Metric halfspace depth for object data, generalizing Tukey's depth for Euclidean data.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.3), nloptr, distory, plyr, manifold
+Suggests: foreach
+LinkingTo: Rcpp
+RoxygenNote: 7.2.1
+Depends: R (>= 3.2.1)
+Encoding: UTF-8
+NeedsCompilation: yes
+Packaged: 2021-12-03 04:03:57 UTC; xdai
+Author: Xiongtao Dai [aut, cre]
+Maintainer: Xiongtao Dai <xdai@iastate.edu>
